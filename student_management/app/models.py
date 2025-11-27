@@ -2,7 +2,6 @@ from sqlalchemy import Column, Integer, String, ForeignKey, Table
 from sqlalchemy.orm import relationship
 from database import Base
 
-# 多对多关系表
 student_group = Table(
     'student_group',
     Base.metadata,
